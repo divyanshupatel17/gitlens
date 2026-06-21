@@ -1,0 +1,30 @@
+# Ignore the store/ build folder but keep the hosted privacy policy tracked
+# (so it can be served via GitHub Pages for the Web Store policy URL).
+store/*
+!store/privacy-policy.html
+temp_previous/*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Node (not used at runtime, but in case tooling is added)
+node_modules/
+npm-debug.log*
+
+# Build / packaging artifacts
+*.zip
+*.crx
+*.pem
+dist/
+build/
+
+# Temp icon render files
+icons/_render_*.svg
+icons/_r.svg

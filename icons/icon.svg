@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="ig" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#feda75"/>
+      <stop offset="0.25" stop-color="#fa7e1e"/>
+      <stop offset="0.55" stop-color="#d62976"/>
+      <stop offset="0.8" stop-color="#962fbf"/>
+      <stop offset="1" stop-color="#4f5bd5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- gradient tile -->
+  <rect x="0" y="0" width="128" height="128" rx="30" fill="url(#ig)"/>
+
+  <!-- frosted glass panel -->
+  <rect x="16" y="16" width="96" height="96" rx="24"
+        fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect x="24" y="22" width="80" height="34" rx="17" fill="#ffffff" opacity="0.18" filter="url(#blur)"/>
+
+  <!-- magnifying-glass lens -->
+  <circle cx="55" cy="54" r="25" fill="#ffffff" fill-opacity="0.16"/>
+  <circle cx="55" cy="54" r="25" fill="none" stroke="#ffffff" stroke-width="10"/>
+  <line x1="74" y1="73" x2="97" y2="96" stroke="#ffffff" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- check mark inside the lens -->
+  <path d="M44 55 l8 9 16 -19" fill="none" stroke="#ffffff" stroke-width="8"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
