@@ -5,7 +5,7 @@
 // user-defined max, and the reciprocal "mutual" status is verified for ONLY the
 // accounts that were loaded — so partial loads are always correct.
 
-const REPO_URL = "https://github.com/itzdivyanshupatel/iglens";
+const REPO_URL = "https://github.com/divyanshupatel17/gitlens";
 const CHANNEL = "iglens";
 
 const DEFAULTS = { maxLoad: 200, maxActions: 100, delay: 45 };

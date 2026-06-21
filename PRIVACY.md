@@ -41,4 +41,4 @@ None. IGLens does not share data with anyone.
 
 ## Contact
 
-Open an issue at https://github.com/itzdivyanshupatel/iglens/issues.
+Open an issue at https://github.com/divyanshupatel17/gitlens/issues.
