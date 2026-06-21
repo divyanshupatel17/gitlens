@@ -5,14 +5,14 @@ It shows who doesn't follow you back, who *you* don't follow back, and lets you
 clean up safely — one account at a time, using only your own logged-in session.
 Nothing leaves your computer.
 
-> Repo: **https://github.com/divyanshupatel17/gitlens**
+> Repo: **https://github.com/divyanshupatel17/instagram_lens**
 
-[![Stars](https://img.shields.io/github/stars/divyanshupatel17/gitlens?style=social)](https://github.com/divyanshupatel17/gitlens)
+[![Stars](https://img.shields.io/github/stars/divyanshupatel17/instagram_lens?style=social)](https://github.com/divyanshupatel17/instagram_lens)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <p align="center"><img src="icons/icon128.png" width="96" alt="IGLens icon"></p>
 
-> ⭐ **If IGLens helps you, please [star the repo](https://github.com/divyanshupatel17/gitlens)** — it helps others find it.
+> ⭐ **If IGLens helps you, please [star the repo](https://github.com/divyanshupatel17/instagram_lens)** — it helps others find it.
 
 ## Features
 
@@ -99,7 +99,7 @@ $zip.Dispose()
 
 ## Support
 
-⭐ **Star the repo:** https://github.com/divyanshupatel17/gitlens
+⭐ **Star the repo:** https://github.com/divyanshupatel17/instagram_lens
 
 ## Contributing
 
